@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://robloxappguide.github.io/sitemap.xml
