@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
+<meta name="google-site-verification" content="HoWofmErOOKMSn8dHeXvBTb5cGoEBEB1rQ7Y3CrUYgY" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
-  <meta name="google-site-verification" content="HoWofmErOOKMSn8dHeXvBTb5cGoEBEB1rQ7Y3CrUYgY" />
 <link rel="icon" href="data:," />
 <title>Roblox — Download for Android &amp; iPhone, Guides and Tips</title>
 <meta name="description" content="Download Roblox free for Android and iPhone from the official Google Play Store and Apple App Store. Beginner guides, how to play, avatar tips, Robux basics, safety settings and answers to the most common Roblox questions." />
@@ -205,6 +205,14 @@
   .card h3{font-size:1.22rem;font-weight:700;margin-bottom:8px}
   .card p{color:var(--ink-soft);margin:0;font-size:.98rem}
 
+  a.card.art-card{text-decoration:none;color:var(--ink);display:block;transition:transform .15s ease,border-color .15s ease}
+  a.card.art-card:hover{transform:translateY(-3px);border-color:var(--red)}
+  .art-tag{
+    display:inline-block;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+    padding:4px 10px;border-radius:999px;background:var(--surface-2);color:var(--ink);margin-bottom:12px;
+  }
+  .art-more{display:inline-block;margin-top:14px;font-weight:800;color:var(--red)}
+
   .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
   @media (max-width:800px){.shots{grid-template-columns:1fr}}
   figure.shot{margin:0;background:var(--surface);border:2px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
@@ -288,7 +296,7 @@
 
   @media (prefers-reduced-motion: reduce){
     html{scroll-behavior:auto}
-    .store-btn{transition:none}
+    .store-btn,a.card.art-card{transition:none}
   }
 </style>
 </head>
@@ -308,6 +316,7 @@
       <a href="#/how-to-play" data-route="how-to-play">How to Play</a>
       <a href="#/tips" data-route="tips">Tips &amp; Tricks</a>
       <a href="#/faq" data-route="faq">FAQ</a>
+      <a href="#/articles" data-route="articles">Articles</a>
       <a href="#/about" data-route="about">About</a>
       <a href="#/contact" data-route="contact">Contact</a>
     </nav>
@@ -452,6 +461,79 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rule"></div>
+        <h2>Articles &amp; in-depth guides</h2>
+        <p>Longer reads from the guide team: the best games to try this year, staying safe, how Robux really works, making your own game, and building an avatar that feels like you.</p>
+      </div>
+      <div class="cards">
+        <a class="card art-card" href="#/best-roblox-games-2026">
+          <span class="art-tag">Game Picks</span>
+          <h3>Best Roblox Games to Play in 2026</h3>
+          <p>Roleplay cities, rage-quit obbies, cosy tycoons, genuinely scary horror and more — the standout experiences in every genre, and who each one suits.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/stay-safe-on-roblox">
+          <span class="art-tag">Safety</span>
+          <h3>How to Stay Safe on Roblox: A Guide for Players and Parents</h3>
+          <p>The privacy settings, chat filters and account controls that actually matter, plus how reporting and blocking work when something goes wrong.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/how-to-get-robux">
+          <span class="art-tag">Robux</span>
+          <h3>How to Get Robux: Every Legit Way Explained</h3>
+          <p>Buying, gift cards, Premium and earning as a creator — every genuine route to Robux, and why "free Robux" generators are always a scam.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/make-your-first-game">
+          <span class="art-tag">Creating</span>
+          <h3>How to Make Your First Game in Roblox Studio</h3>
+          <p>Install Studio, start from a template, learn the basic building tools and publish your first experience for friends to play.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/avatar-customization">
+          <span class="art-tag">Avatars</span>
+          <h3>Roblox Avatar Customization: A Beginner's Guide</h3>
+          <p>Free items, the Marketplace, the avatar editor and outfit ideas — how to build a look that is unmistakably yours without overspending.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/best-obby-games">
+          <span class="art-tag">Obbies</span>
+          <h3>Best Obby Games on Roblox</h3>
+          <p>From gentle starter courses to checkpoint-free towers — the obstacle courses worth your time, sorted by difficulty, plus techniques for the stages that stop everyone.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/best-tycoon-games">
+          <span class="art-tag">Tycoons</span>
+          <h3>Best Tycoon Games on Roblox</h3>
+          <p>Build, earn, expand, repeat. How the tycoon loop works, the standout games in the genre, and the beginner mistakes that slow your income down.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/fix-roblox-lag">
+          <span class="art-tag">Performance</span>
+          <h3>How to Fix Lag in Roblox and Boost FPS</h3>
+          <p>Stutter, rubber-banding and low frame rates, fixed step by step — graphics settings, device tweaks and connection checks that actually make a difference.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/roblox-error-codes">
+          <span class="art-tag">Troubleshooting</span>
+          <h3>Common Roblox Error Codes and How to Fix Them</h3>
+          <p>Error 277, 279, 268, 524 and 610 explained in plain words — what each one really means, why it happens, and the fix that works.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+        <a class="card art-card" href="#/best-horror-games">
+          <span class="art-tag">Horror</span>
+          <h3>Best Horror Games on Roblox</h3>
+          <p>Creeping dread or full jump-scare chaos? The scariest experiences on the platform, grouped by scare level, with tips for playing them safely with friends.</p>
+          <span class="art-more">Read article →</span>
+        </a>
+      </div>
+      <p style="margin-top:22px"><a href="#/articles"><b>Browse all articles →</b></a></p>
     </div>
   </section>
 </div>
@@ -671,6 +753,707 @@
   </div>
 </div>
 
+<!-- ============================ ARTICLES INDEX ============================ -->
+<div class="page" id="page-articles">
+  <div class="article">
+    <h1>Articles</h1>
+    <p class="lede">In-depth, original guides from the Roblox fan guide team. Whether you are picking your next game, setting up a child's account, or building your very first experience, start here.</p>
+  </div>
+  <div class="wrap" style="padding-bottom:10px">
+    <div class="cards">
+      <a class="card art-card" href="#/best-roblox-games-2026">
+        <span class="art-tag">Game Picks</span>
+        <h3>Best Roblox Games to Play in 2026</h3>
+        <p>Roleplay cities, rage-quit obbies, cosy tycoons, genuinely scary horror and more — the standout experiences in every genre, and who each one suits.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/stay-safe-on-roblox">
+        <span class="art-tag">Safety</span>
+        <h3>How to Stay Safe on Roblox: A Guide for Players and Parents</h3>
+        <p>The privacy settings, chat filters and account controls that actually matter, plus how reporting and blocking work when something goes wrong.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/how-to-get-robux">
+        <span class="art-tag">Robux</span>
+        <h3>How to Get Robux: Every Legit Way Explained</h3>
+        <p>Buying, gift cards, Premium and earning as a creator — every genuine route to Robux, and why "free Robux" generators are always a scam.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/make-your-first-game">
+        <span class="art-tag">Creating</span>
+        <h3>How to Make Your First Game in Roblox Studio</h3>
+        <p>Install Studio, start from a template, learn the basic building tools and publish your first experience for friends to play.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/avatar-customization">
+        <span class="art-tag">Avatars</span>
+        <h3>Roblox Avatar Customization: A Beginner's Guide</h3>
+        <p>Free items, the Marketplace, the avatar editor and outfit ideas — how to build a look that is unmistakably yours without overspending.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/best-obby-games">
+        <span class="art-tag">Obbies</span>
+        <h3>Best Obby Games on Roblox</h3>
+        <p>From gentle starter courses to checkpoint-free towers — the obstacle courses worth your time, sorted by difficulty, plus techniques for the stages that stop everyone.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/best-tycoon-games">
+        <span class="art-tag">Tycoons</span>
+        <h3>Best Tycoon Games on Roblox</h3>
+        <p>Build, earn, expand, repeat. How the tycoon loop works, the standout games in the genre, and the beginner mistakes that slow your income down.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/fix-roblox-lag">
+        <span class="art-tag">Performance</span>
+        <h3>How to Fix Lag in Roblox and Boost FPS</h3>
+        <p>Stutter, rubber-banding and low frame rates, fixed step by step — graphics settings, device tweaks and connection checks that actually make a difference.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/roblox-error-codes">
+        <span class="art-tag">Troubleshooting</span>
+        <h3>Common Roblox Error Codes and How to Fix Them</h3>
+        <p>Error 277, 279, 268, 524 and 610 explained in plain words — what each one really means, why it happens, and the fix that works.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+      <a class="card art-card" href="#/best-horror-games">
+        <span class="art-tag">Horror</span>
+        <h3>Best Horror Games on Roblox</h3>
+        <p>Creeping dread or full jump-scare chaos? The scariest experiences on the platform, grouped by scare level, with tips for playing them safely with friends.</p>
+        <span class="art-more">Read article →</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: BEST GAMES 2026 ============================ -->
+<div class="page" id="page-best-roblox-games-2026">
+  <div class="article">
+    <h1>Best Roblox Games to Play in 2026</h1>
+    <p class="lede">With tens of millions of experiences on the platform, "what should I play?" is the hardest question in Roblox. This list cuts through the noise: the standout games in the genres players actually search for, what each one does well, and who it suits.</p>
+
+    <h2>Roleplay: Brookhaven RP</h2>
+    <p>The most-visited experience on Roblox is not really a "game" in the traditional sense — it is a place. Brookhaven RP gives you a friendly modern city, a house you can claim and decorate, cars, jobs from police officer to shopkeeper, and one simple instruction: make up your own story. There are no levels to grind and no way to lose, which is exactly the point.</p>
+    <p><b>Who it suits:</b> players who enjoy social hangouts, storytelling and pretend play with friends; younger players who want something relaxed; anyone who treats Roblox as a place to meet people rather than a challenge to beat.</p>
+
+    <h2>Roleplay with goals: Welcome to Bloxburg</h2>
+    <p>Where Brookhaven is a sandbox, Bloxburg is a life simulator. You work jobs — delivering pizzas, stocking shelves, cutting hair — to earn money, then spend it building and furnishing a house, block by block. The building tools are some of the best on the platform, and designing a dream home can absorb whole weekends.</p>
+    <p><b>Who it suits:</b> players who like The Sims-style progression, building and decorating, and earning things through play rather than having everything handed to them.</p>
+
+    <h2>Obby: Tower of Hell</h2>
+    <p>An obby (obstacle course) is Roblox's oldest genre, and Tower of Hell is its purest form. A tower of randomly assembled sections, an eight-minute timer, and no checkpoints: reach the top before the clock runs out or start again. It is frustrating, fair, and enormously satisfying the first time the timer hits zero with you standing at the summit.</p>
+    <p><b>Who it suits:</b> competitive players, speedrunners, and anyone who enjoys skill-based platforming where success is entirely down to practice.</p>
+
+    <h2>Tycoon: Theme Park Tycoon 2</h2>
+    <p>Tycoon games are about starting with an empty plot and a few coins, then building something that earns money while you expand it. Theme Park Tycoon 2 is the genre at its best: you design roller coasters piece by piece, lay out paths, stalls and decorations, set prices, and watch visitor numbers (and income) climb. The coaster builder alone is deep enough to be a game in itself.</p>
+    <p><b>Who it suits:</b> builders and strategy fans who like watching a plan come together; players who prefer creating over competing.</p>
+
+    <h2>Horror: DOORS</h2>
+    <p>DOORS proved Roblox horror could be genuinely frightening. You and up to eleven others push through a haunted hotel, opening door after door, hiding in wardrobes from things you would rather not meet, solving light puzzles and learning each monster's rules the hard way. Clever sound design and jump scares that feel earned make it a standout — and the later floors keep raising the stakes.</p>
+    <p><b>Who it suits:</b> older players and friend groups who want tension and teamwork; probably not one for younger children or anyone who dislikes jump scares.</p>
+
+    <h2>Simulator: Pet Simulator 99</h2>
+    <p>Simulators are built around a simple, satisfying loop: hatch pets, use them to break coins and chests, unlock new areas, hatch better pets. Pet Simulator 99 refines the formula with huge pets, trading, events and constant updates. Bee Swarm Simulator deserves an honourable mention for a slower, more strategic take — raising a swarm of bees, gathering pollen and completing quests from a cast of bears.</p>
+    <p><b>Who it suits:</b> collectors and players who enjoy steady progression, trading economies and games you can dip into for fifteen minutes or three hours.</p>
+
+    <h2>Action RPG: Blox Fruits</h2>
+    <p>Inspired by pirate anime, Blox Fruits sends you sailing between islands, training, completing quests and eating mysterious fruits that grant powers — flame, ice, light and stranger things. It is one of the biggest adventure games on the platform, with a long road of seas, bosses and PvP for players who commit to it.</p>
+    <p><b>Who it suits:</b> players who want a proper long-term RPG with combat, exploration and character builds, and who don't mind a grind.</p>
+
+    <h2>Mystery: Murder Mystery 2</h2>
+    <p>One round, three roles: most players are Innocents, one is the Sheriff with the only weapon, and one is the Murderer. Survive, deduce, bluff. Rounds last minutes, the tension is real, and it remains the definitive social-deduction game on Roblox years after release.</p>
+    <p><b>Who it suits:</b> friend groups, fans of bluffing and deduction, and players who like short, replayable rounds.</p>
+
+    <h2>Fashion: Dress to Impress</h2>
+    <p>You get a theme ("garden party", "Y2K", "villain era"), a few minutes, and a wardrobe to raid. Then everyone walks the runway and the server votes. Dress to Impress turned outfit-building into a competitive sport and became a cultural phenomenon well beyond Roblox.</p>
+    <p><b>Who it suits:</b> creative players, fashion fans, and anyone who enjoys light competition without combat.</p>
+
+    <h2>How to find your own favourites</h2>
+    <p>Lists like this are a starting point, not the whole map. Use the Discover page's charts, check the like ratio (above 85% positive with lots of votes is a good sign), look at when a game was last updated, and give anything promising twenty minutes. The best Roblox game for you is usually the one a friend drags you into — so join theirs, too.</p>
+
+    <div class="tip-box">
+      <h3>Keep exploring</h3>
+      <p>New to the platform? Our <a href="#/how-to-play">beginner's guide</a> walks you from installing the app to joining your first experience. Read more guides in the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: STAY SAFE ============================ -->
+<div class="page" id="page-stay-safe-on-roblox">
+  <div class="article">
+    <h1>How to Stay Safe on Roblox: A Guide for Players and Parents</h1>
+    <p class="lede">Roblox is built for a young audience, and it ships with serious safety tools — but most of them only protect you if they are switched on and set correctly. This guide walks through every setting that matters, in the order you should check them.</p>
+
+    <h2>Start with the account itself</h2>
+    <h3>Use the real birth date</h3>
+    <p>Almost every protection on Roblox keys off the account's date of birth: chat filtering strictness, which experiences are recommended, and which communication features are available. An account created with a fake "adult" birth date silently loses all of that. Always register children with their true date of birth — it cannot be changed easily later.</p>
+    <h3>Strong password and 2-Step Verification</h3>
+    <p>Use a password that exists nowhere else, then open <b>Settings → Security</b> and turn on <b>2-Step Verification</b>. With it enabled, anyone logging in from a new device needs a code from your email or authenticator app — which stops nearly all account theft, even if a password leaks. Add a parent's email address to the account so it can always be recovered.</p>
+    <h3>Set an Account PIN</h3>
+    <p>Under <b>Settings → Parental Controls</b>, a parent can set a 4-digit <b>Account PIN</b>. Once set, the settings in this guide cannot be changed without it. This is the single most useful step for parents of younger children: set everything below, lock it with a PIN, and the configuration stays put.</p>
+
+    <h2>Privacy settings: who can reach your child</h2>
+    <p><b>Settings → Privacy</b> controls contact. The key options, and sensible defaults for younger players:</p>
+    <ul>
+      <li><b>Who can message me?</b> — set to <b>Friends</b>, or <b>No one</b> for the youngest players. The game remains fully playable either way.</li>
+      <li><b>Who can chat with me in app and in experience?</b> — <b>Friends</b> keeps conversations inside a known circle.</li>
+      <li><b>Who can invite me to private servers?</b> — <b>Friends</b> prevents strangers pulling a child into unmoderated spaces.</li>
+      <li><b>Who can join me in experiences?</b> — <b>Friends</b> means only approved friends can follow the account into games.</li>
+      <li><b>Who can see my inventory?</b> — <b>No one</b> or <b>Friends</b>; a public inventory makes an account a target for trade scams.</li>
+    </ul>
+    <p>Friend requests deserve a house rule too: accept only people known in real life, and review the friends list together occasionally. A small, real friends list is the foundation everything else builds on.</p>
+
+    <h2>Chat filters: how they work</h2>
+    <p>All chat on Roblox passes through automated filtering. For accounts under 13 the filter is strict: inappropriate words are replaced with hashtags, and the system also blocks personal information such as phone numbers, addresses and social media handles — in both directions. Older accounts get a somewhat more relaxed filter, but abusive language and personal details are still blocked.</p>
+    <p>Two things parents should know. First, filtering is a safety net, not a guarantee — determined users try workarounds, which is why the privacy settings above matter more. Second, voice chat (where available) is limited to age-verified older users, and younger accounts simply do not have access to it.</p>
+
+    <h2>Account restrictions and allowed experiences</h2>
+    <p>In <b>Parental Controls</b> you will also find <b>Allowed Experiences</b> controls, which let a parent limit an account to experiences appropriate for its age group, and spending controls that cap monthly purchases. If you allow Robux spending at all, set a limit here and prefer gift cards over a stored payment card — when the card is spent, it is spent.</p>
+    <p>Roblox also shows a maturity label on each experience's page. It takes ten seconds to check before a child plays something new, and it is far more informative than the thumbnail.</p>
+
+    <h2>Reporting and blocking: when something goes wrong</h2>
+    <h3>Block first</h3>
+    <p>Blocking is immediate and total: a blocked player cannot message, follow or interact with the account. In an experience, open the player list (the menu or leaderboard icon), select the player and choose <b>Block</b>. From a profile page, use the menu in the corner. Teach children that blocking is not rude — it is the correct response to anyone making them uncomfortable, and they never need to explain it.</p>
+    <h3>Then report</h3>
+    <p>Reporting tells Roblox's moderation team what happened. Use <b>Report Abuse</b> on a player's profile or in the in-experience menu, pick the category that fits (bullying, scamming, inappropriate content, asking for personal information), and add a short, factual description. Reports are reviewed by moderators; serious violations lead to warnings, restrictions or account termination. Reporting also works on experiences, items and messages — if content breaks the rules, there is a report option near it.</p>
+    <h3>Leave, and tell an adult</h3>
+    <p>The in-the-moment rule for kids is simple: if a conversation feels wrong, leave the experience and tell a parent — no screenshot-hunting, no replying, no "one last message". Parents can review recent play and chat settings afterwards, and anything involving threats or personal information should also be reported through the app.</p>
+
+    <h2>The scams every family should recognise</h2>
+    <ul>
+      <li><b>"Free Robux" generators and giveaways</b> — always fake; they exist to steal accounts or harvest data. Robux never comes from a website form.</li>
+      <li><b>Fake login pages</b> — links promising prizes that ask for a username and password. Only ever log in inside the official app or on roblox.com.</li>
+      <li><b>"Send me your cookie"</b> — anyone asking for a browser cookie, a verification code, or to "check" an account wants to hijack it. Roblox staff will never ask.</li>
+      <li><b>Too-good trades</b> — offers far above an item's value, or pressure to trade first "as a test", are theft attempts. Trade only inside the official trading system, in one transaction.</li>
+    </ul>
+
+    <h2>A five-minute family checklist</h2>
+    <ol>
+      <li>Real birth date on the account; parent email added.</li>
+      <li>Unique password + 2-Step Verification on.</li>
+      <li>Account PIN set by a parent.</li>
+      <li>Privacy set to Friends (or stricter) for messages, chat, invites and joins.</li>
+      <li>Spending limit set, or purchases off.</li>
+      <li>Child knows how to block, report, and leave — and that telling an adult always comes first.</li>
+    </ol>
+    <p>With those six done, Roblox becomes what it should be: a creative, social place where the risks are small and managed. Revisit the settings every few months as your child grows — the right configuration at eight is different from the right one at thirteen.</p>
+
+    <div class="tip-box">
+      <h3>More guides</h3>
+      <p>Our <a href="#/tips">Tips &amp; Tricks page</a> covers the same red flags from the player's side, and the <a href="#/articles">Articles section</a> has guides on Robux, creating games and avatars.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: HOW TO GET ROBUX ============================ -->
+<div class="page" id="page-how-to-get-robux">
+  <div class="article">
+    <h1>How to Get Robux: Every Legit Way Explained</h1>
+    <p class="lede">Robux is the currency that buys avatar items, game passes and private servers across Roblox — and because it costs real money, it attracts more scams than anything else on the platform. Here is every genuine way to get it, and the fakes to walk away from.</p>
+
+    <h2>1. Buy Robux in the official app or website</h2>
+    <p>The straightforward route: open Roblox, tap the Robux icon, choose a bundle and pay through your app store or payment method. Larger bundles cost less per Robux than small ones, so if you buy regularly, one bigger purchase beats several small ones. Robux bought this way lands in your balance immediately and works on every device signed into the same account.</p>
+    <p><b>Golden rule:</b> Robux is only ever sold by Roblox itself — in the app, on roblox.com, and through official gift cards. There is no authorised "discount Robux" shop anywhere.</p>
+
+    <h2>2. Roblox gift cards</h2>
+    <p>Gift cards are sold by ordinary retailers — supermarkets, electronics stores, game shops and major online stores — in physical and digital form. Redeem the code at roblox.com/redeem while signed in, and the Robux (plus, on many cards, an exclusive virtual item) is added to your account.</p>
+    <p>For parents, gift cards are the safest way to give Robux: no payment card is stored in the app, the amount is fixed in advance, and a card makes a present a child can actually unwrap. Only buy from the retailer itself — a stranger "selling codes cheap" online is selling stolen or already-used codes.</p>
+
+    <h2>3. Roblox Premium membership</h2>
+    <p>Premium is Roblox's subscription. Depending on the tier, it adds a monthly allowance of Robux to your account automatically, and unlocks member features such as trading and the ability to sell certain items. If you would buy roughly that much Robux every month anyway, Premium usually works out better value than buying the same amount outright — and the monthly allowance arriving on its own is a useful budgeting rhythm for younger players. If you rarely spend, skip it; Robux bought directly never expires pressure on anyone.</p>
+
+    <h2>4. Earn Robux as a creator</h2>
+    <p>This is the only way to get Robux without spending money, and it is real work — which is precisely why it works.</p>
+    <h3>Sell clothing and avatar items</h3>
+    <p>Designers upload shirts, pants and (with the right access) layered clothing and accessories to the Marketplace. Every sale earns the creator Robux after Roblox's marketplace fee. Good designs, sensible prices and watching what styles are trending matter far more than uploading hundreds of items.</p>
+    <h3>Build an experience with game passes</h3>
+    <p>Developers earn Robux when players buy <b>game passes</b> (permanent perks inside one game), developer products (consumables like coins or revives), and through engagement-based earnings for Premium players spending time in their experience. Your first game will not make you rich — but every big experience on the platform started as somebody's first upload. Our <a href="#/make-your-first-game">Roblox Studio guide</a> walks through making one.</p>
+    <h3>Developer Exchange (DevEx)</h3>
+    <p>Creators who earn substantial Robux can convert it back into real money through the Developer Exchange, once they meet Roblox's eligibility requirements (including a minimum earned balance and a Premium membership). This is how top developers turn a hobby into an income — and it is the honest version of the "earn from Roblox" promise the scam sites imitate.</p>
+
+    <h2>The scams: read this before you search "free Robux"</h2>
+    <div class="tip-box">
+      <h3>There is no free Robux</h3>
+      <p>No website, app, video, survey or "generator" can add Robux to your account. It is technically impossible for an outside site to do it — Robux balances live on Roblox's own servers. Every single offer of free Robux is a trap, and they all work the same few ways:</p>
+    </div>
+    <ul>
+      <li><b>Generator sites</b> ask for your username, show a fake progress bar, then demand a "human verification" survey or app install. Best case, you waste time and feed a scammer advertising money. Worse cases install malware.</li>
+      <li><b>Password phishing</b> — the "generator" or a linked page asks you to log in. It is a fake Roblox page, and the account is stolen within minutes.</li>
+      <li><b>Cookie theft</b> — instructions to paste code into your browser or hand over a ".ROBLOSECURITY" cookie give the thief your logged-in session, bypassing even your password and 2-Step Verification.</li>
+      <li><b>"Cheap Robux" sellers</b> on social media use stolen cards or stolen accounts; the Robux is typically reversed and the buyer's account can be banned for receiving it.</li>
+      <li><b>Giveaway scams</b> — fake livestreams and posts impersonating Roblox or famous creators, asking you to log in or "verify" to claim a prize that does not exist.</li>
+    </ul>
+    <p>If an account is compromised, change the password immediately from the real app or website, turn on 2-Step Verification, and use Roblox Support. And the habit that prevents nearly all of it: if it isn't inside the official app or on roblox.com, it isn't real.</p>
+
+    <h2>Quick comparison</h2>
+    <ul>
+      <li><b>Fastest:</b> buy in the app — instant, any amount.</li>
+      <li><b>Best for gifts and budgets:</b> gift cards — fixed amount, nothing stored.</li>
+      <li><b>Best value for regular players:</b> Premium — monthly allowance plus member perks.</li>
+      <li><b>Only free route:</b> creating — clothing, items and games that other players genuinely want.</li>
+      <li><b>Never:</b> generators, "free Robux" sites, cheap-Robux sellers, giveaway logins.</li>
+    </ul>
+    <p>Robux is optional — every experience on the platform is free to play, and thousands of avatar items cost nothing. Treat it as pocket money for extras, get it only through the routes above, and it will never cause you a problem.</p>
+
+    <div class="tip-box">
+      <h3>Keep reading</h3>
+      <p>Learn how to protect the account your Robux lives in with our <a href="#/stay-safe-on-roblox">safety guide</a>, or browse all guides in the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: MAKE YOUR FIRST GAME ============================ -->
+<div class="page" id="page-make-your-first-game">
+  <div class="article">
+    <h1>How to Make Your First Game in Roblox Studio</h1>
+    <p class="lede">Every experience on Roblox — including the ones with millions of players — was built in the same free tool you can download today: Roblox Studio. This guide takes you from installing it to a published game your friends can actually join.</p>
+
+    <h2>Step 1: Install Roblox Studio</h2>
+    <div class="step"><div class="step-num">1</div><div>
+      <h3>Download Studio on a computer</h3>
+      <p>Studio runs on Windows and Mac (not phones or tablets). Go to <b>create.roblox.com</b>, sign in with your normal Roblox account, and download Studio when prompted. It is free, and the account you play with is the account you create with — anything you publish appears under your username.</p>
+    </div></div>
+
+    <h2>Step 2: Start from a template</h2>
+    <div class="step"><div class="step-num">2</div><div>
+      <h3>Pick a starting point, not a blank page</h3>
+      <p>When Studio opens, choose <b>New</b> and look at the templates. <b>Baseplate</b> is an empty flat world — perfect for learning. The <b>Obby</b> template gives you a working obstacle course you can pull apart and rebuild, which is honestly the fastest way to learn how things fit together. Racing, City and other templates exist too. Pick one, and don't worry: nothing is published until you say so.</p>
+    </div></div>
+
+    <h2>Step 3: Learn the four panels that matter</h2>
+    <div class="step"><div class="step-num">3</div><div>
+      <h3>Explorer, Properties, Toolbox, Viewport</h3>
+      <p>The <b>Viewport</b> is your 3D world — right-drag to orbit the camera, scroll to zoom, use W/A/S/D with right-drag held to fly around. The <b>Explorer</b> (View tab) lists everything in your game as a tree: Workspace holds the physical world, and every part you add appears there. <b>Properties</b> shows the settings of whatever you have selected — colour, size, material, behaviour. The <b>Toolbox</b> is a library of free models, images and audio made by the community; useful, but check what you insert, because free models can contain scripts you don't want.</p>
+    </div></div>
+
+    <h2>Step 4: Build something — the basic moves</h2>
+    <div class="step"><div class="step-num">4</div><div>
+      <h3>Parts are your bricks</h3>
+      <p>On the Home tab, click <b>Part</b> to drop a block into the world. With it selected: <b>Move</b> drags it along arrows, <b>Scale</b> stretches it, <b>Rotate</b> turns it. Change its <b>Color</b> and <b>Material</b> (plastic, wood, neon, glass…) in Properties. Three settings matter immediately: <b>Anchored</b> — tick it, or your part falls with gravity the moment the game runs; <b>CanCollide</b> — whether players can stand on it; and the <b>Spawn Location</b>, the special part that decides where players appear. Build a small course: a spawn pad, a path of blocks, some jumps, a finish platform. You now have a game.</p>
+    </div></div>
+    <div class="tip-box">
+      <h3>Test constantly with Play</h3>
+      <p>Press the <b>Play</b> button (or F5) and Studio drops your avatar into the world exactly as a player would see it. Test after every few parts, not at the end — finding that a jump is impossible is easy to fix at step three and miserable at step thirty. Press Stop to return to editing.</p>
+    </div>
+
+    <h2>Step 5: Make it a little bit yours</h2>
+    <p>Before publishing, add the touches that turn a template into your game: a <b>Part</b> with a bright neon material as a finish line, signs made from parts with a <b>SurfaceGui</b> text label (find them in the + menu in Explorer), a different sky or lighting colour under <b>Lighting</b> in the Explorer, and a name for your places' landmarks. If you feel brave, the <b>Script</b> object is where Roblox's Lua-based language, Luau, lives — even a five-line script that makes a part disappear when touched teaches the core idea: events happen, scripts react. The Creator Hub documentation has beginner tutorials for exactly this.</p>
+
+    <h2>Step 6: Publish your game</h2>
+    <div class="step"><div class="step-num">5</div><div>
+      <h3>File → Publish to Roblox</h3>
+      <p>Go to <b>File → Publish to Roblox As…</b>, give your experience a name and a short, honest description, and save. Then open its page on the Creator Hub or website, find <b>Game Settings</b> (in Studio: Home tab), and under permissions set the game to <b>Public</b> — new games start private, visible only to you. Share the link with friends and watch real players run your course.</p>
+    </div></div>
+
+    <h2>After your first publish</h2>
+    <ul>
+      <li><b>Save often, publish updates freely.</b> Publishing again overwrites the live version with your improvements; players always join the latest one.</li>
+      <li><b>Watch people play.</b> Where do friends get stuck or bored? That observation is worth more than any tutorial.</li>
+      <li><b>Small updates beat big plans.</b> Add one new section, one new feature, test, publish, repeat.</li>
+      <li><b>Monetisation comes later.</b> Game passes and developer products exist in Game Settings when you are ready — see our <a href="#/how-to-get-robux">Robux guide</a> for how creators earn.</li>
+    </ul>
+    <p>Nobody's first game is a hit, and that is fine. The creators behind the biggest experiences on Roblox all started with a baseplate, a few wobbly parts and a publish button. Your first click of that button is the whole point of this guide — everything after is iteration.</p>
+
+    <div class="tip-box">
+      <h3>More guides</h3>
+      <p>Browse the <a href="#/articles">Articles section</a> for safety, Robux and avatar guides, or see what the platform's best creators have built in <a href="#/best-roblox-games-2026">Best Roblox Games to Play in 2026</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: AVATAR CUSTOMIZATION ============================ -->
+<div class="page" id="page-avatar-customization">
+  <div class="article">
+    <h1>Roblox Avatar Customization: A Beginner's Guide</h1>
+    <p class="lede">Your avatar is how the whole platform sees you — it is you in every experience you join. The good news: building a look you love does not require a big Robux balance. Here is how the avatar system works, where the free stuff hides, and how to put together outfits that feel like you.</p>
+
+    <h2>The Avatar Editor: where everything happens</h2>
+    <p>Open the <b>Avatar</b> tab in the app or on the website and you are in the editor. Across the top (or side) are categories: <b>Head &amp; Body</b>, <b>Clothing</b>, <b>Accessories</b>, <b>Emotes</b> and <b>Animations</b>. Everything you own lives here; tap an item to wear it, tap again to remove it. Changes save automatically and apply everywhere — the avatar you build in the editor is the one that walks into your next game.</p>
+    <h3>Body basics</h3>
+    <p>Under Head &amp; Body you can change skin tone, swap the head and torso style, and — for the classic blocky body types — adjust <b>scale</b>: height, width and head size sliders that make an avatar tall and slim, short and wide, or anywhere between. There are two broad body families: the classic blocky style and the smoother, more humanoid R15-style bodies with more joints and bendier animations. Neither is "better" — pick the one that matches the look you want.</p>
+
+    <h2>Clothing: classic vs layered</h2>
+    <p>Classic clothing — shirts and pants — works like a printed texture wrapped around the avatar: simple, cheap, and there are millions of designs. <b>Layered clothing</b> is actual 3D garments (jackets, dresses, hoodies) that sit over the body, wrinkle and move with it, and can be worn several pieces at once. A common beginner mistake is buying five of the same category and wondering why only one shows: check which slot an item uses, and build outfits from different slots — top, outerwear, bottoms, shoes, then accessories.</p>
+
+    <h2>The Marketplace (Catalog): finding items</h2>
+    <p>The <b>Marketplace</b> is where community creators sell clothing, accessories, hair, faces and gear. Search is your friend: filter by category, by item type, and crucially by <b>price</b>. Sort "Price: Low to High" in any category and you will surface the free and cheap items first. Items marked <b>Limited</b> are resalable collectibles with fluctuating prices — fun for traders, but beginners should admire them from a distance; our <a href="#/how-to-get-robux">Robux guide</a> explains the trading risks.</p>
+
+    <h2>Free items: yes, really</h2>
+    <ul>
+      <li><b>Price filter at zero.</b> In the Marketplace, set the maximum price to 0. There is a large, rotating pool of free clothing, hair, hats and accessories — including items Roblox itself releases for events.</li>
+      <li><b>Your starting inventory.</b> Every account begins with a set of default outfits, hair and faces. They are unfashionable on purpose — everyone recognises the "new player" look — but they are a perfectly fine base while you browse.</li>
+      <li><b>Event and promo items.</b> Brand collaborations and platform events regularly give away free accessories for completing simple in-experience tasks. They are time-limited, so they also become a small badge of "I was there".</li>
+      <li><b>Free models of patience.</b> A wishlist and a little patience beats impulse buys: prices of ordinary (non-Limited) items do not change, so the item will still be there next week.</li>
+    </ul>
+
+    <h2>Building an outfit that works</h2>
+    <h3>Pick a palette, then a silhouette</h3>
+    <p>Most good-looking avatars follow one colour palette (two main colours plus a neutral) and a clear silhouette — the outline other players see from across the map. Decide the outline first (hood up? long coat? big hair?), then fill in colours. Accessories are seasoning, not the meal: two or three well-chosen pieces read better than eight competing ones.</p>
+    <h3>Save outfits, plural</h3>
+    <p>The editor's <b>Costumes</b> (saved outfits) feature lets you store complete looks and swap in one tap. Most players keep a few: a main look, something silly for friends, and themed outfits for roleplay games. Save every combination you like before experimenting — recreating a deleted look from memory is harder than it sounds.</p>
+    <h3>Mind the experience</h3>
+    <p>Some experiences replace your avatar with a game-specific character, some scale avatars to a set size, and a few restrict bulky accessories for gameplay reasons. If your avatar looks different inside one particular game, that is the game's choice, not a bug — your saved look returns the moment you leave.</p>
+
+    <h2>Animations and emotes</h2>
+    <p>Animation packs change how your avatar walks, runs, jumps, swims and idles — a subtle change that alters the whole feel of a character. Emotes are performed actions (waves, dances, laughs) triggered from the in-game emote menu. A handful of emotes are free, and both categories are worth trying in the editor's preview before spending anything: watch the full loop, not just the icon.</p>
+
+    <h2>Avatar safety notes</h2>
+    <ul>
+      <li><b>Never "borrow" accounts or trade logins</b> for items — it is the oldest account-theft trick there is, covered in our <a href="#/stay-safe-on-roblox">safety guide</a>.</li>
+      <li><b>Buy only inside the official Marketplace.</b> Items offered through outside links or "duplication" services do not exist.</li>
+      <li><b>Usernames and display names</b> are part of your identity too: display names can be changed free on a cooldown, usernames cannot — choose once, carefully, and never use your real full name.</li>
+    </ul>
+    <p>Your avatar will evolve as you play — that is the fun of it. Start with the free pool, find a palette and silhouette that feel right, save the look, and let it grow one good piece at a time.</p>
+
+    <div class="tip-box">
+      <h3>More guides</h3>
+      <p>See <a href="#/how-to-get-robux">How to Get Robux</a> before you spend on premium items, and browse all guides in the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: BEST OBBY GAMES ============================ -->
+<div class="page" id="page-best-obby-games">
+  <div class="article">
+    <h1>Best Obby Games on Roblox</h1>
+    <p class="lede">The obby — short for obstacle course — is the oldest genre on Roblox and still one of the most played. Hundreds of stages, one simple question: can you make the jump? Here is what separates a great obby from a forgettable one, the picks worth playing at every difficulty level, and the techniques that get you through the stages everyone gets stuck on.</p>
+
+    <h2>What makes a good obby?</h2>
+    <p>Every obby asks you to run, jump and climb from a start point to a finish line, usually through a series of stages with checkpoints in between. The best ones share a few qualities that have nothing to do with how colourful they look.</p>
+    <ul>
+      <li><b>Fair jumps.</b> A good obby is hard because the jump is precise, not because the platform was secretly shorter than it looked. If you fall, you should know exactly why — you jumped early, drifted left, hit the kill brick. Unfair obbies hide the trick; fair ones teach it.</li>
+      <li><b>A difficulty curve that teaches.</b> Early stages introduce one idea at a time — a longer gap, a moving platform, a spinning hazard — and later stages combine ideas you have already practised. When an obby suddenly demands a technique it never taught you, that is poor design, not a skill issue.</li>
+      <li><b>Checkpoints that respect your time.</b> Most obbies save your stage when you touch a checkpoint pad. How far apart those pads are defines the whole feel of the game: generous checkpoints make a relaxing run, while no checkpoints at all turns the course into a test of nerve.</li>
+      <li><b>Variety of obstacles.</b> Ladders, truss climbs, wraparound jumps, conveyor belts, disappearing platforms, lava floors and tightropes — a good obby keeps rotating its challenges so stage 150 does not feel like stage 15 with a different paint colour.</li>
+      <li><b>A finish worth reaching.</b> Morphs, trails, a winners' area, badges — some small celebration that makes the final stage feel like an achievement rather than just an ending.</li>
+    </ul>
+
+    <h2>Easy: start here</h2>
+    <h3>Mega Easy Obby</h3>
+    <p>The name is honest. Hundreds of short, forgiving stages with wide platforms, gentle gaps and checkpoints everywhere. It is the obby most new players finish first, and it is perfect for learning the basic movement — how far a standard jump carries, how to line up before a gap, how kill bricks work — without any punishment for mistakes. Play it with younger family members or as a warm-up.</p>
+    <h3>Escape-style obbies (Barry's Prison Run and friends)</h3>
+    <p>Escape obbies wrap a course in a story: break out of a cartoon prison, flee a giant chef, escape the dentist. The obstacles are easy to moderate, but buttons, keys, boss chases and simple puzzles break up the jumping so it never feels like one long corridor. Barry's Prison Run is the best-known of the type and a great first "long" obby — expect checkpoints after every room and a lot of variety.</p>
+
+    <h2>Medium: the sweet spot</h2>
+    <h3>Obby But You're on a Bike</h3>
+    <p>A clever twist on the formula: instead of running, you ride a bicycle through the entire course, which completely changes how jumps, slopes and tight corners feel. Speed management becomes the skill — too fast and you overshoot, too slow and you stall on a ramp. Stages are checkpointed and the difficulty climbs steadily, making it ideal for players who have finished the easy courses and want a fresh challenge without a huge leap in frustration.</p>
+    <h3>Themed mega obbies</h3>
+    <p>The large themed courses — candy worlds, lava caves, rainbow towers with several hundred stages — sit comfortably in the middle. Individual stages are rarely brutal, but the sheer length is the test: finishing one in a single sitting is a genuine endurance achievement. Most save your progress between visits, so treat them as a long-term project you chip away at.</p>
+
+    <h2>Hard: for players who want a real test</h2>
+    <h3>Tower of Hell</h3>
+    <p>The most famous hard obby on Roblox strips the genre to its bones: a tower built from randomly chosen sections, an eight-minute timer, and <b>no checkpoints at all</b>. Fall near the top and you fall to the bottom. What makes it brilliant rather than cruel is that every section is learnable — regulars recognise each stage type on sight and know its safe route. Beating the timer for the first time, after dozens of failed climbs, is one of the great Roblox moments.</p>
+    <h3>Tower of Misery and the tower genre</h3>
+    <p>Tower of Hell inspired a whole family of checkpoint-free towers with their own section pools and difficulty flavours — some slightly kinder, some openly sadistic. If you enjoy the format, work through them in order of reputation: learn one tower's sections well before moving to a harder one, because the movement skills transfer even when the layouts do not.</p>
+    <div class="tip-box">
+      <h3>How difficulty labels work</h3>
+      <p>Many obbies label stages or whole games Easy, Medium, Hard and Impossible. Treat those labels as rough guides only — one creator's "hard" is another's warm-up. A better test: if you can clear the first ten stages with only a couple of falls, the difficulty is right for you. If you are stuck on stage two for ten minutes, drop down a level and build skill there first.</p>
+    </div>
+
+    <h2>Tips for hard stages</h2>
+    <h3>Use the camera, not just the character</h3>
+    <p>Zoom out before a long section so you can see the whole route, and swing the camera to a side view for precision jumps — judging distance is far easier side-on than from behind. On PC, holding Shift for Shift Lock keeps your character aligned with the camera, which makes strafe jumps and narrow beams much more controllable. On mobile, a slightly higher camera angle helps you see landing spots below you.</p>
+    <h3>Master the core techniques</h3>
+    <ul>
+      <li><b>Edge jumps:</b> jump at the very last moment before the platform ends. Running off the edge first and jumping a fraction later carries you noticeably further — most "impossible" gaps are designed around this.</li>
+      <li><b>Wraparounds:</b> jump around the side of a wall or pillar and curve back in mid-air with your movement keys. Practise on a wide pillar in an easy obby until the motion is automatic.</li>
+      <li><b>Ladder flicks and truss climbs:</b> climb to the top of a ladder or truss, then jump and steer onto the platform beside it. Look up while climbing to move faster.</li>
+      <li><b>Head-hitters and low ceilings:</b> when a ceiling forces a short hop, tap jump briefly rather than holding your normal rhythm, and move forward only once you are airborne.</li>
+      <li><b>Moving platforms:</b> jump on as the platform moves toward you, not as it leaves — you gain its momentum and a safer landing.</li>
+    </ul>
+    <h3>Slow down to speed up</h3>
+    <p>The most common cause of failure on hard stages is rushing a section you have not read yet. Stop at each checkpoint, watch any moving parts complete a full cycle, pick your line, then commit. On timed towers, learn sections slowly in untimed practice games first — the speed comes from knowing the route, not from hurrying.</p>
+    <h3>Manage the frustration</h3>
+    <p>Hard obbies are designed to make you fall; falling is the game, not a failure of it. Set a session goal ("reach section four today") instead of a finish goal, take a break after a bad fall near the top, and remember that every attempt is quietly making the early sections effortless. The players at the top of the tower have fallen more times than you have — they just kept climbing.</p>
+
+    <div class="tip-box">
+      <h3>Keep exploring</h3>
+      <p>Obbies appear in our overall picks too — see <a href="#/best-roblox-games-2026">Best Roblox Games to Play in 2026</a>, or browse all guides in the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: BEST TYCOON GAMES ============================ -->
+<div class="page" id="page-best-tycoon-games">
+  <div class="article">
+    <h1>Best Tycoon Games on Roblox</h1>
+    <p class="lede">Start with an empty plot and a handful of coins. End with a theme park, a restaurant empire or a military base that earns money while you watch. Tycoons are Roblox's most relaxing genre — here is how they work, the ones worth your time, and how to avoid the beginner mistakes that slow everyone down.</p>
+
+    <h2>How tycoon games work</h2>
+    <p>Almost every tycoon on Roblox runs on the same satisfying loop, dressed up in a different theme:</p>
+    <ol>
+      <li><b>You begin with a plot and a little cash.</b> A baseplate, a starter building or a single machine that produces something sellable.</li>
+      <li><b>You buy buttons.</b> Tycoons famously present purchases as coloured buttons on the floor. Step on one (if you can afford it) and a wall, machine, dropper or decoration appears. Each purchase either earns money, unlocks the next purchase, or makes your base look better.</li>
+      <li><b>Your operation earns income.</b> In classic factory tycoons, "droppers" create items that ride a conveyor to a collector and turn into cash. In management tycoons — restaurants, shops, theme parks — customers arrive, spend money and leave, and your layout and staffing decide how much they spend.</li>
+      <li><b>You reinvest and expand.</b> Earnings buy bigger machines, new floors, better products and new areas, which earn faster, which buy more. Numbers go up; the base grows; the loop tightens.</li>
+      <li><b>Rebirth: the prestige reset.</b> Many tycoons offer a "rebirth" once you complete your base: you give up everything in exchange for a permanent income multiplier and access to exclusive items. It sounds painful, but with the multiplier your second build takes a fraction of the time — rebirthing early and often is usually the fastest route to the top.</li>
+    </ol>
+    <p>Some tycoons add combat or competition on top — rival players can raid your base in war and superhero tycoons — while management tycoons are almost entirely peaceful building games. Knowing which type you are in the mood for is half of choosing well.</p>
+
+    <h2>Top picks</h2>
+    <h3>Theme Park Tycoon 2 — the builder's choice</h3>
+    <p>The standout management tycoon on the platform. You are not stepping on buttons here: you design a theme park freely, placing paths, stalls, decorations and fully custom roller coasters you build piece by piece, then set prices and watch visitors react. It rewards creativity more than grinding, and a well-designed park earns happily while you spend your time building the next coaster. If you play one tycoon, make it this one.</p>
+    <h3>Restaurant Tycoon 2 — run the kitchen</h3>
+    <p>Design a restaurant, hire staff, build a menu from world cuisines and serve a dining room full of customers. The fun is in the layout: a badly placed kitchen slows every order, while a smart floor plan lets a small team serve a crowd. Expansions, new cuisines and decorating give it a long, gentle progression that suits shorter sessions.</p>
+    <h3>Retail Tycoon 2 — the shop simulator</h3>
+    <p>Build and run a retail store: lay out shelves, order stock, set prices, hire cashiers and watch shoppers browse. It captures the real logic of retail — stock the right products, keep shelves full, expand the floor when queues grow — in a calm, readable way. A great pick for players who enjoy systems and optimisation over decoration.</p>
+    <h3>War Tycoon — the competitive option</h3>
+    <p>A classic button tycoon with teeth. Build a military base, unlock weapons and vehicles from helicopters to tanks, capture objectives around the map for income bonuses, and defend your base from other players doing exactly the same. It is the pick for players who find pure building games too quiet — just expect your base to be attacked while you are still learning where the buttons are.</p>
+    <h3>Tropical Resort Tycoon and the relax-first tycoons</h3>
+    <p>At the peaceful end of the genre, resort and mansion tycoons focus on building something beautiful: a beach resort floor by floor, villas, pools and marinas. Progression is steady, there is no combat, and the reward is walking through a place that was an empty plot an hour ago. Ideal for playing alongside friends in voice chat or winding down.</p>
+
+    <h2>Beginner tips that actually help</h2>
+    <ul>
+      <li><b>Buy income before decoration.</b> Early on, every coin spent on a money-making machine shortens the whole game; every coin spent on a decorative wall delays it. Follow the button order the game suggests at first — it is usually arranged cheapest and most useful first.</li>
+      <li><b>Don't hoard cash "for later".</b> Money sitting in your balance earns nothing. The moment you can afford the next earning upgrade, buy it: the upgrade pays for itself, then pays for the next one.</li>
+      <li><b>Read what a purchase does.</b> Some buttons are pure decoration, some unlock new areas, and a few are traps for the impatient — a wildly expensive item placed early in the sequence to tempt you into saving instead of growing. If a price looks ten times higher than its neighbours, skip it and come back.</li>
+      <li><b>Rebirth as soon as it makes sense.</b> Compare the multiplier on offer with how long your current base took. If rebirthing doubles your income and your base took an hour, you will rebuild it in well under half that time and then be earning twice as fast forever. Players who delay rebirth out of attachment progress far slower.</li>
+      <li><b>Use offline and idle earnings wisely.</b> Some tycoons keep earning (at a reduced rate) while you are away or reward you for staying in the server. Leaving a management tycoon running while you take a break is a legitimate strategy — your park keeps serving customers.</li>
+      <li><b>Play with the server, not against it.</b> In non-combat tycoons, visiting neighbours' bases is free inspiration: note their layouts, pricing and which upgrades they prioritised. In combat tycoons, make one ally early — mutual defence beats solo pride.</li>
+      <li><b>Skip the early game passes.</b> "2x cash" passes are marketed hardest at the start, when they are worth least, because double of a tiny income is still tiny. Play a tycoon for a few sessions first; if you are still enjoying it, a multiplier pass has far more value mid-game. Our <a href="#/how-to-get-robux">Robux guide</a> explains how to spend sensibly.</li>
+    </ul>
+
+    <div class="tip-box">
+      <h3>The one-sentence secret of tycoons</h3>
+      <p>Always spend on whatever increases your income per minute, in the cheapest order available, and the rest of the game — the mansion, the park, the fleet — buys itself.</p>
+    </div>
+
+    <div class="tip-box">
+      <h3>Keep exploring</h3>
+      <p>Tycoons also feature in <a href="#/best-roblox-games-2026">Best Roblox Games to Play in 2026</a>. Fancy building something of your own instead? See <a href="#/make-your-first-game">How to Make Your First Game in Roblox Studio</a> or browse the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: FIX ROBLOX LAG ============================ -->
+<div class="page" id="page-fix-roblox-lag">
+  <div class="article">
+    <h1>How to Fix Lag in Roblox and Boost FPS</h1>
+    <p class="lede">"Lag" in Roblox is really three different problems wearing one name: a low frame rate (the picture stutters), a weak connection (you rubber-band and freeze), and a struggling device (everything loads slowly). Each has different fixes — this guide works through all three, starting with the changes that help the most.</p>
+
+    <h2>First: work out which kind of lag you have</h2>
+    <ul>
+      <li><b>Frame-rate lag (low FPS):</b> the game looks like a slideshow, especially in busy or detailed areas, but other players move smoothly. This is your device and graphics settings.</li>
+      <li><b>Connection lag (high ping):</b> your character snaps back to earlier positions ("rubber-banding"), actions respond late, other players teleport. This is your internet route to the server.</li>
+      <li><b>Server lag:</b> everyone in the experience is stuttering at the same time. This is the game's server, not you — the fix is switching servers, covered below.</li>
+    </ul>
+    <p>In any experience you can check your connection quality: open the in-game <b>Settings</b> menu and look for the performance or network statistics, which show your current frame rate and ping. A ping under 100 ms feels responsive; over 200 ms you will feel every action trail behind you. Keep that readout in mind as you try the fixes — change one thing at a time and see what actually moves the numbers.</p>
+
+    <h2>Fix 1: Set graphics mode to Manual and lower the slider</h2>
+    <p>This is the single most effective change for frame-rate lag, and most players have never touched it.</p>
+    <div class="step"><div class="step-num">1</div><div>
+      <h3>Open the in-game settings</h3>
+      <p>Join any experience, then open the menu (the Roblox icon or Esc key on PC, the menu button on mobile) and choose <b>Settings</b>.</p>
+    </div></div>
+    <div class="step"><div class="step-num">2</div><div>
+      <h3>Switch Graphics Mode from Automatic to Manual</h3>
+      <p>On <b>Automatic</b>, Roblox guesses your settings and often guesses too high. Switching to <b>Manual</b> reveals the <b>Graphics Quality</b> slider.</p>
+    </div></div>
+    <div class="step"><div class="step-num">3</div><div>
+      <h3>Lower the slider until the stutter stops</h3>
+      <p>Drop it several notches at once, play for a minute, then raise it one notch at a time until the frame rate dips again. Most phones play smoothly between levels 1 and 5; lower settings mainly reduce draw distance, shadows and texture detail — the gameplay is identical. In experiences with their own settings menus, also turn off shadows, reflections and particle effects there.</p>
+    </div></div>
+
+    <h2>Fix 2: Give your device room to breathe</h2>
+    <ul>
+      <li><b>Close background apps.</b> Video apps, browsers with many tabs and other games compete for the same memory and processor. On older phones this alone can double your frame rate.</li>
+      <li><b>Free up storage.</b> A device with a completely full disk runs everything slowly. Keep at least a couple of gigabytes free.</li>
+      <li><b>Restart the device.</b> If performance has decayed over days of use, a restart clears stalled processes that closing apps misses. Simple, and it genuinely works.</li>
+      <li><b>Keep Roblox updated.</b> Performance fixes ship in app updates constantly. Update through the official app store, and let your device's system software update too.</li>
+      <li><b>Play plugged in, or off battery-saver.</b> Battery-saver and low-power modes deliberately slow the processor down. If a device gets hot, it will throttle itself — a short break to cool down restores speed better than any setting.</li>
+      <li><b>On PC:</b> use the dedicated graphics card if your machine has one (set Roblox to "high performance" in your system graphics settings), close overlays you don't need, and lower your display resolution if you are playing on a very high-resolution monitor with modest hardware.</li>
+    </ul>
+
+    <h2>Fix 3: Connection checks for high ping and rubber-banding</h2>
+    <ul>
+      <li><b>Play on Wi-Fi, close to the router.</b> Roblox streams the world as you move. A weak signal through two walls is the most common cause of rubber-banding on phones and tablets. Moving into the same room as the router for a test tells you immediately whether signal strength is your problem.</li>
+      <li><b>Try the 5 GHz band.</b> If your router offers both 2.4 GHz and 5 GHz networks, 5 GHz is faster and less crowded at short range; 2.4 GHz reaches further through walls. Test both — the better one depends on your home.</li>
+      <li><b>On PC, use a cable if you can.</b> A wired Ethernet connection removes Wi-Fi from the equation entirely and gives the lowest, steadiest ping.</li>
+      <li><b>Pause the household competition.</b> Someone streaming 4K video or downloading a huge game update on the same connection will spike your ping. If lag appears at the same times each day, this is usually why.</li>
+      <li><b>Turn off a VPN.</b> A VPN routes your traffic through another city or country, adding distance and delay to every packet. Roblox only needs a normal connection — if you use a VPN for other things, disconnect it before playing.</li>
+      <li><b>Restart the router.</b> Routers are small computers and they degrade over weeks of uptime. A restart (off for 30 seconds, then on) fixes a surprising share of "my internet is fine but games lag" cases.</li>
+    </ul>
+
+    <h2>Fix 4: Change servers</h2>
+    <p>If everyone around you is stuttering, or your ping is high in one experience but fine in others, the server you joined is far away or overloaded. Leave and rejoin — you will usually land on a different server. For a deliberate choice, open the experience's <b>Servers</b> tab and pick a server with fewer players; emptier servers are both smoother and closer to a fresh start. Playing with friends in another region will always mean one of you has the longer trip — expect higher ping in international sessions, and let the player with the weakest connection host the choice of game where possible.</p>
+
+    <h2>Fix 5: When nothing else works</h2>
+    <ul>
+      <li><b>Reinstall the app.</b> A corrupted installation can cause stutters and crashes that settings can't fix. Uninstall, restart the device, then reinstall from the official store. Your account, items and progress live on Roblox's servers, not in the app — nothing is lost.</li>
+      <li><b>Check whether it is just one experience.</b> Some community games are simply unoptimised, with huge maps and thousands of parts. If one game lags and everything else runs well, the game is the problem — lower that game's own settings if it has them, and consider it a hardware limit rather than a fault.</li>
+      <li><b>Check Roblox's status.</b> Occasionally the platform itself has an outage. If multiple games fail at once and your connection is fine for everything else, wait it out — no setting on your device fixes a server-side incident. Connection errors that appear while you troubleshoot are decoded in our <a href="#/roblox-error-codes">error codes guide</a>.</li>
+    </ul>
+
+    <div class="tip-box">
+      <h3>The 80/20 of lag fixing</h3>
+      <p>Manual graphics mode with a lowered slider, a strong Wi-Fi signal, and background apps closed — those three changes solve the great majority of Roblox lag. Do them first before digging into anything more exotic.</p>
+    </div>
+
+    <div class="tip-box">
+      <h3>Keep exploring</h3>
+      <p>More practical help lives in our <a href="#/tips">Tips &amp; Tricks</a> page and the full <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: ROBLOX ERROR CODES ============================ -->
+<div class="page" id="page-roblox-error-codes">
+  <div class="article">
+    <h1>Common Roblox Error Codes and How to Fix Them</h1>
+    <p class="lede">Few things are more annoying than being ready to play and meeting a grey box with a number in it. Roblox error codes look cryptic, but each one has a plain-English meaning and, usually, a short fix. Here are the five players meet most — 277, 279, 268, 524 and 610 — what they really mean, and what to do, in order.</p>
+
+    <div class="tip-box">
+      <h3>Before any specific fix: the universal three</h3>
+      <p>Whatever the code: <b>1)</b> fully close Roblox and reopen it; <b>2)</b> check your internet connection by loading another app or page; <b>3)</b> if the error appears in every game at once, wait a few minutes — platform-wide problems happen and fix themselves. A surprising number of error codes never come back after step one.</p>
+    </div>
+
+    <h2>Error 277 — "Lost connection to the game server"</h2>
+    <h3>What it means in plain words</h3>
+    <p>You were playing (or joining) and your connection to that game's server dropped. Roblox kept the session open for a moment, couldn't reach you, and disconnected you. It is a connection interruption, not a punishment and not a problem with your account.</p>
+    <h3>Common causes</h3>
+    <ul>
+      <li>Your Wi-Fi or mobile data dropped or hiccupped, even briefly.</li>
+      <li>The server itself crashed or restarted (if your friends in the same game were disconnected at the same moment, this is it).</li>
+      <li>Your device slept, switched networks (Wi-Fi to mobile data), or a VPN changed route mid-session.</li>
+    </ul>
+    <h3>How to fix it</h3>
+    <ol>
+      <li>Rejoin the game — most 277s are one-off blips.</li>
+      <li>If it repeats, strengthen the connection: move closer to the router, switch Wi-Fi bands, or use a cable on PC. Our <a href="#/fix-roblox-lag">lag guide</a> has the full connection checklist.</li>
+      <li>Turn off any VPN, and stop the device switching networks mid-game by staying on one connection.</li>
+      <li>If it happens in one game only, that experience's servers may be unstable — try a different server from the Servers tab.</li>
+    </ol>
+
+    <h2>Error 279 — "Failed to connect to the game"</h2>
+    <h3>What it means in plain words</h3>
+    <p>Your device tried to join a game and the connection never got established at all — Roblox often shows it with an "ID=17: Connection attempt failed" note. Unlike 277, you never got in; something between your device and Roblox blocked the handshake.</p>
+    <h3>Common causes</h3>
+    <ul>
+      <li>A firewall, antivirus or router setting blocking the ports Roblox uses.</li>
+      <li>A very slow or unstable connection timing out during the join.</li>
+      <li>Corrupted temporary files in an older installation.</li>
+      <li>School, work or public Wi-Fi networks that block game traffic — 279 is the classic "Roblox at school" error.</li>
+    </ul>
+    <h3>How to fix it</h3>
+    <ol>
+      <li>Restart the device and the router, then try again — this clears most temporary blocks.</li>
+      <li>Test on a different network (for example, mobile data instead of home Wi-Fi, or the reverse). If it works on one and not the other, the failing network's settings are the cause.</li>
+      <li>On PC, check that your firewall or antivirus isn't blocking the Roblox app, and allow it through if prompted.</li>
+      <li>Reinstall Roblox from the official store to replace any corrupted files.</li>
+      <li>On a managed network (school or work), the block is intentional and there is no legitimate workaround — play on your home connection instead.</li>
+    </ol>
+
+    <h2>Error 268 — "You have been kicked due to unexpected client behavior"</h2>
+    <h3>What it means in plain words</h3>
+    <p>The server removed you because something about your game client looked wrong to Roblox's systems. Despite the alarming wording, this is very often a technical false alarm — damaged files, a clash with other software, or an unstable connection producing strange data — rather than proof you did anything wrong.</p>
+    <h3>Common causes</h3>
+    <ul>
+      <li>Corrupted files in the Roblox installation.</li>
+      <li>Third-party software interfering with the game. Note: actual exploit or cheat software will also trigger this, and using it risks your account — never install it.</li>
+      <li>Severe connection problems making your client behave erratically.</li>
+      <li>Outdated app version.</li>
+    </ul>
+    <h3>How to fix it</h3>
+    <ol>
+      <li>Update Roblox to the latest version from the official store.</li>
+      <li>If it persists, uninstall and reinstall — a clean install resolves most 268 loops caused by bad files.</li>
+      <li>Close overlays and background tools that hook into games, then test again.</li>
+      <li>Stabilise your connection using the checks in the <a href="#/fix-roblox-lag">lag guide</a>.</li>
+      <li>If 268 appears instantly in every game on a clean install with a good connection, contact Roblox Support through the official app — an account-level flag can only be reviewed by them.</li>
+    </ol>
+
+    <h2>Error 524 — "Not authorized to join this experience"</h2>
+    <h3>What it means in plain words</h3>
+    <p>You don't currently have permission to enter the place you tried to join. This is most often about private (VIP) servers: the link or invite you followed points to a server you are not on the access list for, or the server has been shut down since the link was shared. It can also appear when a teleport inside a game sends you to a restricted sub-place.</p>
+    <h3>Common causes</h3>
+    <ul>
+      <li>A private-server link that was regenerated, expired or shared from someone else's server.</li>
+      <li>The private server's owner changed who may join.</li>
+      <li>Joining a friend whose privacy settings, or the game's settings, don't allow followers.</li>
+      <li>A temporary authorisation glitch while the platform is busy.</li>
+    </ul>
+    <h3>How to fix it</h3>
+    <ol>
+      <li>Join the game's public servers instead: open the experience page, use the <b>Servers</b> tab and pick a public server — if public play works, the game itself is fine.</li>
+      <li>For a private server, ask the owner for a fresh invite link; old links are the number one cause of 524.</li>
+      <li>If you are following a friend, ask them to check their "who can join me" privacy setting.</li>
+      <li>If 524 appears on public servers too, log out, log back in, and retry — and if it continues across games, wait and try later in case of a platform-side issue.</li>
+    </ol>
+
+    <h2>Error 610 — "Game join error"</h2>
+    <h3>What it means in plain words</h3>
+    <p>The place you tried to join could not be started — usually because the experience (or the specific place inside it that a teleport was sending you to) is not active, has been made private by its creator, or failed to load on Roblox's side. Of the five codes here, 610 is the one most often about the game rather than about you.</p>
+    <h3>Common causes</h3>
+    <ul>
+      <li>The experience was taken offline, made private, or is being updated by its creator.</li>
+      <li>A teleport inside a game points to a sub-place that no longer exists or is not published.</li>
+      <li>A private-server or reserved-server session expired before you joined.</li>
+      <li>A brief platform problem while the game's servers were starting.</li>
+    </ul>
+    <h3>How to fix it</h3>
+    <ol>
+      <li>Refresh the experience page and check it is still public and playable — look for a notice from the creator about updates or downtime.</li>
+      <li>Try joining again after a few minutes; a place that failed to start often succeeds on the next attempt.</li>
+      <li>If only one part of a game fails (for example, one mode's teleport), that is the creator's bug to fix — there is nothing to change on your device, though a polite message to the creator through the game's page can help them notice.</li>
+      <li>If every game returns 610, treat it as a platform issue: check your connection, restart the app, and wait before trying again.</li>
+    </ol>
+
+    <h2>When to stop fixing and start waiting</h2>
+    <p>If the same code appears across many different games, on a connection that works fine for everything else, the problem is almost certainly on Roblox's side and no reinstall will help. Note the code, wait, and try again later. If a single code follows your account across devices and networks for more than a day, that is the moment for Roblox Support — reachable only through the official app or website. Never pay a third-party "error fix" service or download a "repair tool": those are scams, and the genuine fixes are the free ones above.</p>
+
+    <div class="tip-box">
+      <h3>Keep exploring</h3>
+      <p>Pair this guide with <a href="#/fix-roblox-lag">How to Fix Lag in Roblox and Boost FPS</a> for connection problems, and browse all guides in the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================ ARTICLE: BEST HORROR GAMES ============================ -->
+<div class="page" id="page-best-horror-games">
+  <div class="article">
+    <h1>Best Horror Games on Roblox</h1>
+    <p class="lede">Roblox horror is far better than it has any right to be. Behind the blocky avatars sit games with real atmosphere, clever monsters and jump scares that have made whole friend groups scream. This guide groups the best of them by how scary they actually get, so you can pick your level — and explains how to play them enjoyably and safely with friends.</p>
+
+    <h2>How to choose: scare levels explained</h2>
+    <p>Horror means different things to different players, so the picks below are grouped into three bands. <b>Gentle scares</b> means spooky themes, chases and tension, but nothing designed to truly frighten — suitable for most players who enjoy a thrill. <b>Properly scary</b> adds darkness, dread and real jump scares. <b>Maximum fear</b> is for experienced horror fans: sustained tension, disturbing imagery and scares that stay with you after you log off. Every game shows a maturity label on its experience page — check it, especially for younger players, and remember there is no prize for playing above your comfort level.</p>
+
+    <h2>Gentle scares: start here</h2>
+    <h3>Piggy</h3>
+    <p>The game that proved story-driven horror works on Roblox. Each chapter drops your group into a location — a house, a station, a carnival — with one player (or a bot) as the infected Piggy hunting everyone else. Your team solves simple puzzles to unlock the exit before the timer or Piggy catches you. The scares are chase-based rather than disturbing, the chapters form an ongoing story, and playing as Piggy is as much fun as escaping. An ideal first horror game and a great one for mixed-age groups.</p>
+    <h3>Rainbow Friends</h3>
+    <p>A school trip to an odd theme park goes wrong, and over a series of nights your group must complete tasks — collecting blocks, food, batteries — while colourful monsters patrol the map. Each creature has a simple rule (one hunts by sight, one by sound), which turns fear into a puzzle you can learn. Bright visuals keep it approachable, but the moment a monster rounds the corner while you carry the last item, your heart rate will not care how colourful it is.</p>
+
+    <h2>Properly scary: the middle band</h2>
+    <h3>DOORS</h3>
+    <p>The modern Roblox horror benchmark. You and up to eleven others work through a haunted hotel, opening one numbered door after another, never knowing what the next room holds. Each entity has a rule to learn — hide when the lights flicker, keep moving when something hunts the dark, stay silent, stay observant — and dying teaches you the rule for next time. Superb sound design does most of the frightening, and reaching door 100 with a full team intact is a genuine achievement. Start with a small group and headphones at a sensible volume.</p>
+    <h3>Apeirophobia</h3>
+    <p>Named after the fear of infinity, this is "backrooms" horror: endless yellow office corridors, humming lights, and something in the maze with you. Levels are escape-room style — find the exit, solve the task, don't be found — and the dread comes from emptiness and sound rather than constant jump scares. Played in first person with a camera that bobs and breathes, it feels unlike anything else on the platform. Best for players who prefer creeping tension over sudden shocks.</p>
+
+    <h2>Maximum fear: experienced players only</h2>
+    <h3>The Mimic</h3>
+    <p>Widely considered the scariest experience on Roblox, The Mimic is a multi-chapter story rooted in Japanese folklore, with detailed environments, a serious narrative and scares built on atmosphere, sound and sudden, well-earned shocks. Chapters are long, mazes are dark, and the designs of its creatures are genuinely unsettling. This is the one to graduate to after DOORS — and the one to keep away from younger or easily frightened players, whatever their friends say.</p>
+    <h3>Dead Silence</h3>
+    <p>A slower, investigation-style horror: explore a dark, abandoned setting, piece together what happened, and survive encounters that the game does not telegraph kindly. It leans on darkness and audio, so it hits hardest played at night with headphones — which is also exactly how you should <i>not</i> play it if you are testing your limits. Take it in daylight first.</p>
+
+    <h2>Playing horror games safely — and enjoyably — with friends</h2>
+    <ul>
+      <li><b>Use a private server where the game offers one.</b> Horror is better with people you know: no strangers shouting spoilers, nobody griefing the puzzles, and you control exactly who is in the session. Many private servers are free; set one up from the experience's Servers tab.</li>
+      <li><b>Agree on the scare level before you join.</b> One friend's "it's not that scary" is another's sleepless night. Pick the band together, and make leaving mid-game completely fine — a good group treats tapping out as normal, not as losing.</li>
+      <li><b>Keep voice chat to people you know.</b> Playing with friends from real life, in a private server, is the safest setup. Younger players should stick to the privacy settings in our <a href="#/stay-safe-on-roblox">safety guide</a> — messages, joins and invites set to Friends — whatever genre they are playing.</li>
+      <li><b>Mind the volume and the hour.</b> Jump-scare games are mixed loud on purpose. Keep headphone volume moderate, and don't make a genuinely frightening game the last thing a younger player does before bed.</li>
+      <li><b>Watch for imitations and off-platform lures.</b> Popular horror games attract copycat versions and "secret ending" links. Play the original from its real experience page, and never follow a link out of the game to claim a reward — that rule from our <a href="#/how-to-get-robux">Robux guide</a> applies here too.</li>
+      <li><b>Stick together in-game.</b> Beyond safety, it is simply better horror: split up and half the group misses the scare, the puzzle solution or the rescue. Most of these games are designed around a group that communicates — who has the key, which door, where the monster is.</li>
+    </ul>
+
+    <h2>A sensible path through the genre</h2>
+    <p>New to Roblox horror? Play <b>Piggy</b> for an evening, move to <b>Rainbow Friends</b>, then take a team into <b>DOORS</b>. If door 100 leaves you wanting more dread rather than less, <b>Apeirophobia</b> and finally <b>The Mimic</b> are waiting. Horror is the rare genre where the platform's social side is the whole point — the games are scary, but the story you tell your friends the next day is the real reward.</p>
+
+    <div class="tip-box">
+      <h3>Keep exploring</h3>
+      <p>Horror also features in <a href="#/best-roblox-games-2026">Best Roblox Games to Play in 2026</a>. For account and privacy setup before playing with friends, read <a href="#/stay-safe-on-roblox">How to Stay Safe on Roblox</a>, or browse the <a href="#/articles">Articles section</a>.</p>
+    </div>
+  </div>
+</div>
+
 </main>
 
 <footer>
@@ -686,6 +1469,7 @@
         <a href="#/how-to-play">How to Play</a>
         <a href="#/tips">Tips &amp; Tricks</a>
         <a href="#/faq">FAQ</a>
+        <a href="#/articles">Articles</a>
       </div>
       <div>
         <h4>Site</h4>
@@ -737,12 +1521,23 @@
     list.appendChild(item);
   });
 
-  var ROUTES = ['home','how-to-play','tips','faq','about','contact','privacy','terms','disclaimer'];
+  var ROUTES = ['home','how-to-play','tips','faq','articles','best-roblox-games-2026','stay-safe-on-roblox','how-to-get-robux','make-your-first-game','avatar-customization','best-obby-games','best-tycoon-games','fix-roblox-lag','roblox-error-codes','best-horror-games','about','contact','privacy','terms','disclaimer'];
   var TITLES = {
     'home': 'Roblox — Download for Android & iPhone, Guides and Tips',
     'how-to-play': 'How to Play Roblox — Beginner Guide | Roblox Fan Guide',
     'tips': 'Roblox Tips & Tricks — Safety, Robux and Finding Good Games',
     'faq': 'Roblox FAQ — Frequently Asked Questions',
+    'articles': 'Articles — Roblox Guides, Tips and How-Tos',
+    'best-roblox-games-2026': 'Best Roblox Games to Play in 2026',
+    'stay-safe-on-roblox': 'How to Stay Safe on Roblox — Guide for Players and Parents',
+    'how-to-get-robux': 'How to Get Robux — Every Legit Way Explained',
+    'make-your-first-game': 'How to Make Your First Game in Roblox Studio',
+    'avatar-customization': "Roblox Avatar Customization — A Beginner's Guide",
+    'best-obby-games': 'Best Obby Games on Roblox',
+    'best-tycoon-games': 'Best Tycoon Games on Roblox',
+    'fix-roblox-lag': 'How to Fix Lag in Roblox and Boost FPS',
+    'roblox-error-codes': 'Common Roblox Error Codes and How to Fix Them',
+    'best-horror-games': 'Best Horror Games on Roblox',
     'about': 'About This Roblox Fan Guide',
     'contact': 'Contact — Roblox Fan Guide',
     'privacy': 'Privacy Policy — Roblox Fan Guide',
